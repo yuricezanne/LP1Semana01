@@ -5,8 +5,11 @@
         int inteiro1 = 1;
         int inteiro2 = 2;
         string string1 = "LP1";
+        string string2 = "\u2647";
+        
 
         Console.WriteLine(string.Concat(inteiro1, inteiro2, string1));
+        Console.WriteLine(char.Parse(string2));
    
     }
 }
